@@ -1,6 +1,6 @@
 # [SportsOdd](http://github.com/yadakhov/sportsodd)
 
-A simple class to convert sports odds.
+A class to convert sports odds between American odds and Decimal odds.
 
 Odds Chart from -1000 to 1000.
 
