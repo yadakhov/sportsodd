@@ -1,5 +1,9 @@
 # [SportsOdd](http://github.com/yadakhov/sportsodd)
 
+[![Latest Stable Version](https://poser.pugx.org/yadakhov/sportsodd/version)](https://packagist.org/packages/yadakhov/sportsodd)
+[![License](https://poser.pugx.org/yadakhov/sportsodd/license)](https://packagist.org/packages/yadakhov/sportsodd)
+[![Build Status](https://travis-ci.org/yadakhov/sportsodd.svg)](https://travis-ci.org/yadakhov/sportsodd)
+
 A class to convert between American odds and Decimal odds.
 
 ## [Packagist](https://packagist.org/packages/yadakhov/sportsodd)
