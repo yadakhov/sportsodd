@@ -3,36 +3,46 @@
 namespace Yadakhov;
 
 /**
- * Class SportsOdd
+ * Class SportsOdd.
  *
  * https://www.pinnacle.com/en/betting-articles/educational/converting-between-american-and-decimal-odds
  */
 class SportsOdd
 {
-    const PRECISION = 10;
-
-    public static function americanToDecimal($american)
+    /**
+     * Convert american odd to decimal odd.
+     *
+     * @param $american
+     * @param int $precision
+     *
+     * @return int
+     * @throws \Exception
+     */
+    public static function americanToDecimal($american, $precision = 10)
     {
-        if ($american < 0) {
-            return 1 + round(100 / abs($american), self::PRECISION);
+        if ($american <= -101) {
+            return 1 + round(100 / abs($american), $precision);
         }
 
-        if ($american > 0) {
-            return 1 + round($american / 100, self::PRECISION);
+        if ($american >= 100) {
+            return 1 + round($american / 100, $precision);
         }
 
-        return 0;
+        throw new \Exception('Not a valid american odd: ' . $american);
     }
 
     /**
+     * Convert decimal odd to american odd.
+     *
      * @param $decimal
      *
-     * @return float|int
+     * @return float
+     * @throws \Exception
      */
     public static function decimalToAmerican($decimal)
     {
         if ($decimal == 1) {
-            throw new \RuntimeException('Division by zero');
+            throw new \Exception('Not a valid decimal odd: ' . $decimal);
         }
 
         if ($decimal >= 2) {
