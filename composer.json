@@ -1,6 +1,6 @@
 {
     "name": "yadakhov/sportsodd",
-    "description": "A class to work with sports odd.",
+    "description": "A class to work with sports odds. Convert between american and decimal odds.",
     "homepage": "https://github.com/yadakhov/sportsodd",
     "license": "MIT",
     "authors": [
@@ -22,6 +22,8 @@
     },
     "keywords": [
         "odds",
+        "betting",
+        "sportsbet",
         "american",
         "sports"
     ]

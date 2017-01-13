@@ -4,7 +4,7 @@
 [![License](https://poser.pugx.org/yadakhov/sportsodd/license)](https://packagist.org/packages/yadakhov/sportsodd)
 [![Build Status](https://travis-ci.org/yadakhov/sportsodd.svg)](https://travis-ci.org/yadakhov/sportsodd)
 
-A class to convert between American odds and Decimal odds.
+ class to work with sports odds. Convert between american and decimal odds.
 
 ## [Packagist](https://packagist.org/packages/yadakhov/sportsodd)
 ```
