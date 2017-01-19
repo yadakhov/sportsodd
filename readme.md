@@ -8,7 +8,7 @@
 
 ## [Packagist](https://packagist.org/packages/yadakhov/sportsodd)
 ```
-composer require yadakhov/json
+composer require yadakhov/sportsodd
 ```
 
 ## Example
